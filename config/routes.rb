@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   resources :users
   #applicationコントローラのhelloアクションを行う
-  root 'user#index'
+  root 'users#index'
 end
