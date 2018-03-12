@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
+  resources :microposts
   resources :users
-  #applicationコントローラのhelloアクションを行う
   root 'users#index'
 end
